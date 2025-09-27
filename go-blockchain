@@ -1,0 +1,24 @@
+go-blockchain/
+├── README.md
+├── go.mod
+├── .gitignore
+├── Makefile
+├── Dockerfile
+├── cmd/
+│ └── node/
+│ └── main.go
+├── pkg/
+│ ├── blockchain/
+│ │ ├── block.go
+│ │ ├── chain.go
+│ │ └── difficulty.go
+│ ├── p2p/
+│ │ └── network.go
+│ ├── wallet/
+│ │ └── wallet.go
+│ └── api/
+│ └── server.go
+├── scripts/
+│ └── run.sh
+└── tests/
+└── chain_test.go
